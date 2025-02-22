@@ -8,5 +8,5 @@ EXPOSE 53
 EXPOSE 80
 EXPOSE 443
 
-CMD ["./dns.rb"]
+CMD ["ruby", "dns.rb"]
 
